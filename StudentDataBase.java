@@ -28,9 +28,9 @@ class Student {
 
 public class StudentDataBase {
     public static void main(String[] args) {
-        while (true) {
             Scanner sc = new Scanner(System.in);
             HashMap<Integer, Student> map = new HashMap<>();
+        while (true) {
             System.out.println("1. Add Student");
             System.out.println("2.View Student");
             System.out.println("3.Search Student");
